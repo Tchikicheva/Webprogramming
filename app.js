@@ -1,17 +1,22 @@
 const closedFace = document.querySelector('.closed');
 const openFace = document.querySelector('.open');
+const closedText = document.querySelector('.closed-text');
+const openText = document.querySelector('.open-text');
 
-// Add event listener
+// Function to toggle visibility
+const toggleVisibility = (addActiveElem, removeActiveElem) => {
+  addActiveElem.classList.add('active');
+  removeActiveElem.classList.remove('active');
+};
+
+// Add event listener for closedFace
 closedFace.addEventListener('click', () => {
-  if (openFace.classList.contains('open')) {
-    openFace.classList.add('active');
-    closedFace.classList.remove('active');
-  }
+  toggleVisibility(openFace, closedFace);
+  toggleVisibility(openText, closedText);
 });
 
+// Add event listener for openFace
 openFace.addEventListener('click', () => {
-  if (closedFace.classList.contains('closed')) {
-    closedFace.classList.add('active');
-    openFace.classList.remove('active');
-  }
+  toggleVisibility(closedFace, openFace);
+  toggleVisibility(closedText, openText);
 });
