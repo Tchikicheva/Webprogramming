@@ -1,0 +1,87 @@
+Welcome to my README Files for Web Programming Projects
+---
+Digital Clock
+
+A simple web application that displays a live digital clock. This project uses HTML, CSS, and JavaScript to provide a real-time clock that updates every second.
+
+Features
+
+- Displays the current time.
+- Updates every second.
+
+Instructions
+
+1. View Time: Open `index.html` in your web browser to see the current time.
+2. Real-Time Update: Watch the clock update every second.
+
+Code Structure
+
+- `index.html`: The HTML structure of the application.
+- `styles.css`: The CSS styles for the application.
+- `app.js`: The JavaScript code for the clock functionality.
+
+Setup
+
+1. Download or clone the repository.
+2. Open `index.html` in your web browser to view the digital clock.
+
+---
+
+Sticky Notes
+
+A simple web application to create, save, and delete sticky notes. This project uses HTML, CSS, and JavaScript to provide a user-friendly interface for managing notes. Confetti is displayed when the first six notes are created.
+
+Features
+
+- Create new sticky notes.
+- Save notes by clicking the check icon or pressing Enter.
+- Delete notes by double-clicking them.
+- Confetti effect for the first six notes.
+- Instructions for using the application are displayed initially and disappear after the first note is created.
+
+Instructions
+
+1. Create Note: Click the "Create Note" button to start a new note.
+2. Write Note: Type your note in the textarea.
+3. Save Note: Click the check icon or press Enter to save the note.
+4. Delete Note: Double-click on a note to delete it.
+5. Confetti: Enjoy a confetti effect when creating the first six notes.
+
+Code Structure
+
+- `index.html`: The HTML structure of the application.
+- `style.css`: The CSS styles for the application.
+- `script.js`: The JavaScript code for the application logic.
+
+Setup
+
+1. Download or clone the repository.
+2. Open `index.html` in your web browser to use the application.
+
+---
+
+Emoji Transition
+
+A web application that showcases an animation effect where emojis transition smoothly across the screen. This project uses HTML, CSS, and JavaScript to create a visually appealing effect.
+
+Features
+
+- Smooth transition of emojis across the screen.
+- Fun and engaging visual effect.
+
+Instructions
+
+1. View Animation: Open `index.html` in your web browser to see the emoji transition effect.
+
+ Code Structure
+
+- `index.html`: The HTML structure of the application.
+- `styles.css`: The CSS styles for the application.
+- `app.js`: The JavaScript code for the transition effect.
+
+Setup
+
+1. Download or clone the repository.
+2. Open `index.html` in your web browser to enjoy the emoji transition effect.
+
+---
